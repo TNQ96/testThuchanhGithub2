@@ -31,7 +31,7 @@
             this.txtA = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
             this.btCong = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.bttru = new System.Windows.Forms.Button();
             this.txtKetQua = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -59,14 +59,15 @@
             this.btCong.UseVisualStyleBackColor = true;
             this.btCong.Click += new System.EventHandler(this.btCong_Click);
             // 
-            // button2
+            // bttru
             // 
-            this.button2.Location = new System.Drawing.Point(411, 229);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
+            this.bttru.Location = new System.Drawing.Point(411, 229);
+            this.bttru.Name = "bttru";
+            this.bttru.Size = new System.Drawing.Size(75, 23);
+            this.bttru.TabIndex = 1;
+            this.bttru.Text = "-";
+            this.bttru.UseVisualStyleBackColor = true;
+            this.bttru.Click += new System.EventHandler(this.bttru_Click);
             // 
             // txtKetQua
             // 
@@ -80,7 +81,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(794, 489);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.bttru);
             this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.txtB);
@@ -97,7 +98,7 @@
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.Button btCong;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bttru;
         private System.Windows.Forms.TextBox txtKetQua;
     }
 }
